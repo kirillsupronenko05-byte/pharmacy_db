@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Подключение к БД
-DB_URL = "postgresql+psycopg2://postgres:password@localhost:5432/pharmacy_db"
+DB_URL = "postgresql+psycopg2://postgres:1234d@localhost:5432/pharmacy_db"
 try:
     engine = create_engine(DB_URL)
     with engine.connect() as conn:
