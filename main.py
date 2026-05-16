@@ -17,8 +17,7 @@ warnings.filterwarnings('ignore')
 # ============================================================
 # 0. ПОДКЛЮЧЕНИЕ К БД
 # ============================================================
-# Замените строку подключения под свою БД:
-DB_URL = "postgresql+psycopg2://postgres:password@localhost:5432/pharmacy_db"
+DB_URL = "postgresql+psycopg2://postgres:1234@localhost:5432/pharmacy_db"
 
 try:
     engine = create_engine(DB_URL)
